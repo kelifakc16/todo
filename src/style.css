@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flex{
+   width: 100%;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content:space-between;   
+}
+.inputTodo{
+    justify-content: space-between;
+}
+.todo{
+    background-color: rgb(241, 196, 111);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    background-color: rgb(47, 47, 124);
+    width: 25%;
+    height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 1px 9px rgb(47, 47, 124);
+    padding: 8px;   
+   
+}
+.app h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+
+}
+.task{
+    border:1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: black;
+    font-size: 12px;
+  width: 75%;
+  color:#ffffff;
+   
+  
+}
+.addbtn{
+    background-color: rgb(230, 155, 102);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 8px 16px;
+    color: grey;
+    border:1px solid gray;
+    
+}
+.task-button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(47, 47, 124) ;
+    color: white;
+    padding: 5px;  
+}
+
+
+
+
+
